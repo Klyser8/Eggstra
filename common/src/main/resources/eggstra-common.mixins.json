@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.klyser8.eggstra.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ChickensLayGoldenEggsMixin",
+    "LightGoldenCakesMixin",
+    "StructureProcessorAccessor",
+    "StructureTemplateMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

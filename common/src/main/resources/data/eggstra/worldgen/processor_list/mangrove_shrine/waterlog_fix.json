@@ -1,0 +1,27 @@
+{
+  "processors": [
+    {
+      "processor_type": "eggstra:waterlog_fix"
+    },
+    {
+      "processor_type": "eggstra:waterlog_blocks",
+      "blocks": [
+        {
+          "Name": "minecraft:mud_brick_stairs"
+        },
+        {
+          "Name": "minecraft:mud_brick_slab"
+        },
+        {
+          "Name": "minecraft:mud_brick_wall"
+        },
+        {
+          "Name": "minecraft:mangrove_trapdoor"
+        },
+        {
+          "Name": "eggstra:golden_cake"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "eggstra",
+  "version": "${version}",
+  "name": "Eggstra",
+  "description": "Adds fried eggs, plus some other egg-related stuff",
+  "authors": [
+    "Klyser8"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/trinkets/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.klyser8.eggstra.fabric.EggstraFabric"
+    ],
+    "client": [
+      "com.github.klyser8.eggstra.client.EggstraFabricClient"
+    ]
+  },
+  "mixins": [
+    "eggstra.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "minecraft": ">=1.19"
+  }
+}
