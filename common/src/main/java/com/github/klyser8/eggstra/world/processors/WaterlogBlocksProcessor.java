@@ -48,7 +48,7 @@ public class WaterlogBlocksProcessor extends StructureProcessor {
             StructureTemplate.StructureBlockInfo blockInfoWorld, StructurePlaceSettings structurePlaceSettings) {
         BlockPos blockPos = blockInfoWorld.pos;
         if (levelReader.isWaterAt(blockPos)) {
-            if (levelReader.isWaterAt(blockPos.above())
+            if ((levelReader.isWaterAt(blockPos.above()) || levelReader.isEmptyBlock(blockPos.above()))
                     && blockInfoWorld.state.hasProperty(BlockStateProperties.WATERLOGGED)
                     && blocksToWaterlog.contains(blockInfoWorld.state.getBlock())) {
                 blockInfoWorld = new StructureTemplate.StructureBlockInfo(blockPos,
