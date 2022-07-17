@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "eggstra:block/golden_pink_candle_cake"
+    },
+    "lit=true": {
+      "model": "eggstra:block/golden_pink_candle_cake_lit"
+    }
+  }
+}

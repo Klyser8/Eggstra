@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "C": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "G": {
+      "item": "eggstra:golden_egg"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    "MCM",
+    "SGS",
+    "WWW"
+  ],
+  "result": {
+    "item": "eggstra:golden_cake"
+  }
+}

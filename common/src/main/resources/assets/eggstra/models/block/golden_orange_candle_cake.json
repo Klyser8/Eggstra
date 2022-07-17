@@ -1,0 +1,10 @@
+{
+  "parent": "eggstra:block/golden_template_cake_with_candle",
+  "textures": {
+    "candle": "minecraft:block/orange_candle",
+    "bottom": "eggstra:block/golden_cake_bottom",
+    "side": "eggstra:block/golden_cake_side",
+    "top": "eggstra:block/golden_cake_top",
+    "particle": "eggstra:block/golden_cake_side"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "block.golden_cake.place": {
+    "sounds": [
+      "eggstra:block/gold_cake1",
+      "eggstra:block/gold_cake2",
+      "eggstra:block/gold_cake3",
+      "eggstra:block/gold_cake4"
+    ]
+  },"block.golden_cake.break": {
+    "sounds": [
+      "eggstra:block/gold_cake1",
+      "eggstra:block/gold_cake2",
+      "eggstra:block/gold_cake3",
+      "eggstra:block/gold_cake4"
+    ]
+  },"block.golden_cake.glitter": {
+    "sounds": [
+      "eggstra:block/gold_glitter1",
+      "eggstra:block/gold_glitter2",
+      "eggstra:block/gold_glitter3"
+    ]
+  },
+  "music_disc.music_disc_gold": {
+    "sounds": [
+      {
+        "name": "eggstra:records/music_disc_gold",
+        "stream": true
+      }
+    ]
+  }
+}
