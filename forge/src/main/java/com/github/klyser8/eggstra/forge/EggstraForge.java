@@ -1,7 +1,7 @@
 package com.github.klyser8.eggstra.forge;
 
 import com.github.klyser8.eggstra.Eggstra;
-import com.github.klyser8.eggstra.client.EggstraForgeClient;
+import com.github.klyser8.eggstra.forge.client.EggstraForgeClient;
 import com.github.klyser8.eggstra.platform.forge.CommonPlatformHelperImpl;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -16,6 +16,7 @@ public class EggstraForge {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         CommonPlatformHelperImpl.ITEMS.register(bus);
         CommonPlatformHelperImpl.BLOCKS.register(bus);
+        CommonPlatformHelperImpl.ENTITY_TYPES.register(bus);
         CommonPlatformHelperImpl.PARTICLE_TYPES.register(bus);
         CommonPlatformHelperImpl.SOUND_EVENTS.register(bus);
         CommonPlatformHelperImpl.STRUCTURE_PROCESSOR_TYPES.register(bus);

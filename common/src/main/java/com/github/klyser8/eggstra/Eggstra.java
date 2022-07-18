@@ -8,8 +8,10 @@ public class Eggstra {
     public static void init() {
         EggstraBlocks.register();
         EggstraItems.register();
+        EggstraEntityTypes.register();
         EggstraParticles.register();
         EggstraSounds.register();
         EggstraProcessors.register();
+        EggstraAdvancementTriggers.register();
     }
 }

@@ -12,7 +12,7 @@ public class EggstraTrades {
             1, 5, 0.1f
     );
     public static final MerchantOffer EGG_AND_EMERALD_BLOCK_FOR_GOLD_EGG = new MerchantOffer(
-            new ItemStack(Items.EMERALD_BLOCK, 8),
+            new ItemStack(Items.EMERALD_BLOCK, 16),
             new ItemStack(Items.EGG, 1),
             new ItemStack(EggstraItems.GOLDEN_EGG.get(), 1),
             1, 30, 0.1f

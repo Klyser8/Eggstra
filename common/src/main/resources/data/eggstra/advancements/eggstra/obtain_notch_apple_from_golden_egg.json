@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "translate": "advancement.eggstra.obtain_notch_apple_from_golden_egg.title"
+    },
+    "description": {
+      "translate": "advancement.eggstra.obtain_notch_apple_from_golden_egg.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "eggstra:eggstra/crack_golden_egg",
+  "criteria": {
+    "crack_egg": {
+      "trigger": "eggstra:crack_golden_egg",
+      "conditions": {
+        "found_item": {
+          "items": [
+            "minecraft:enchanted_golden_apple"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

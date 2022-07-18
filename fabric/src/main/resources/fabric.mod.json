@@ -16,7 +16,7 @@
       "com.github.klyser8.eggstra.fabric.EggstraFabric"
     ],
     "client": [
-      "com.github.klyser8.eggstra.client.EggstraFabricClient"
+      "com.github.klyser8.eggstra.fabric.client.EggstraFabricClient"
     ]
   },
   "mixins": [

@@ -1,10 +1,14 @@
 package com.github.klyser8.eggstra.platform;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
+import net.minecraft.advancements.critereon.SimpleCriterionTrigger;
 import net.minecraft.core.particles.ParticleType;
 import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.levelgen.structure.Structure;
@@ -36,6 +40,12 @@ public class CommonPlatformHelper {
 
     @ExpectPlatform
     public static <T extends StructureProcessorType<?>> Supplier<T> registerStructureProcessor(String name, Supplier<T> soundEvent) {
+        throw new AssertionError();
+    }
+
+    @ExpectPlatform
+    public static <T extends Entity> Supplier<EntityType<T>> registerEntityType(
+            String name, EntityType.EntityFactory<T> factory, MobCategory category, float width, float height, int clientTrackingRange) {
         throw new AssertionError();
     }
 

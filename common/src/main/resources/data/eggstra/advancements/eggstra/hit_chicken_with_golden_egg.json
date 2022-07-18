@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:feather",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "advancement.eggstra.hit_chicken_with_golden_egg.title"
+    },
+    "description": {
+      "translate": "advancement.eggstra.hit_chicken_with_golden_egg.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "eggstra:eggstra/crack_golden_egg",
+  "criteria": {
+    "requirement": {
+      "trigger": "eggstra:crack_golden_egg",
+      "conditions": {
+        "hit_entity": {
+          "type": "minecraft:chicken"
+        }
+      }
+    }
+  }
+}

@@ -19,11 +19,19 @@
       "eggstra:block/gold_glitter2",
       "eggstra:block/gold_glitter3"
     ]
+  },"entity.golden_egg.throw": {
+    "sounds": [
+      "eggstra:entity/golden_egg_throw"
+    ]
+  },"entity.golden_egg.crash": {
+    "sounds": [
+      "eggstra:entity/golden_egg_crash"
+    ]
   },
-  "music_disc.music_disc_gold": {
+  "music_disc.music_disc_goldcore": {
     "sounds": [
       {
-        "name": "eggstra:records/music_disc_gold",
+        "name": "eggstra:records/music_disc_goldcore",
         "stream": true
       }
     ]

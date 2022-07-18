@@ -8,6 +8,10 @@ architectury {
     common()
 }
 
+loom {
+    accessWidenerPath.set(file("src/main/resources/eggstra.accesswidener"))
+}
+
 publishing {
     publications {
         mavenCommon(MavenPublication) {

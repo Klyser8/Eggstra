@@ -2,6 +2,25 @@
   "item.eggstra.fried_egg": "Uovo Fritto",
   "item.eggstra.golden_egg": "Uovo D'oro",
   "block.eggstra.golden_cake": "Torta D'oro",
-  "item.eggstra.music_disc_gold": "Disco Musicale",
-  "item.eggstra.music_disc_gold.desc": "Oskar August - eggsploration"
+  "item.eggstra.music_disc_goldcore": "Disco Musicale",
+  "item.eggstra.music_disc_goldcore.desc": "Oskar August - GoldCore",
+
+  "advancement.eggstra.crack_golden_egg.title": "Easter Egg",
+  "advancement.eggstra.crack_golden_egg.desc": "Tira e rompi un Uovo D'oro per scoprire cosa si nasconde dentro",
+  "advancement.eggstra.eat_golden_cake.title": "Un Peso sullo Stomaco",
+  "advancement.eggstra.eat_golden_cake.desc": "Mangia 5 fette di Torta D'oro, poi corri in bagno.",
+  "advancement.eggstra.find_mangrove_shrine.title": "La torta è una Bugia!",
+  "advancement.eggstra.find_mangrove_shrine.desc": "Trova un Sepolcro delle Mangrovie",
+  "advancement.eggstra.hit_chicken_with_golden_egg.title": "L'uovo è nato prima",
+  "advancement.eggstra.hit_chicken_with_golden_egg.desc": "Colpisci un Pollo con un Uovo D'oro. Ne è valsa la pena?",
+  "advancement.eggstra.obtain_fried_egg.title": "Dopo 12 anni...",
+  "advancement.eggstra.obtain_fried_egg.desc": "Ottieni un Uovo Fritto",
+  "advancement.eggstra.obtain_golden_egg.title": "Che Fatica!",
+  "advancement.eggstra.obtain_golden_egg.desc": "Trova un Uovo D'oro, evitando di farci male a qualcuno",
+  "advancement.eggstra.obtain_notch_apple_from_golden_egg.title": "Powa?!",
+  "advancement.eggstra.obtain_notch_apple_from_golden_egg.desc": "Trova una Mela D'oro Incantata dentro un Uovo D'Oro",
+  "advancement.eggstra.play_goldcore_in_mangrove.title": "Discoteca Mangrovia",
+  "advancement.eggstra.play_goldcore_in_mangrove.desc": "Metti il disco musicale GoldCore in un Jukebox, dentro una Palude di Mangrovie",
+  "advancement.eggstra.root.title": "Qual'è nato prima?",
+  "advancement.eggstra.root.desc": "Trova un uovo, e contemplane l'esistenza"
 }

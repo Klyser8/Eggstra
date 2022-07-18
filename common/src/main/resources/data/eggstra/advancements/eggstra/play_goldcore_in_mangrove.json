@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "eggstra:music_disc_goldcore"
+    },
+    "title": {
+      "translate": "advancement.eggstra.play_goldcore_in_mangrove.title"
+    },
+    "description": {
+      "translate": "advancement.eggstra.play_goldcore_in_mangrove.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "eggstra:eggstra/obtain_fried_egg",
+  "criteria": {
+    "goldcore_in_mangrove": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "eggstra:music_disc_goldcore"
+          ]
+        },
+        "location": {
+          "biome": "minecraft:mangrove_swamp",
+          "block": {
+            "blocks": [
+              "minecraft:jukebox"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "goldcore_in_mangrove"
+    ]
+  ]
+}

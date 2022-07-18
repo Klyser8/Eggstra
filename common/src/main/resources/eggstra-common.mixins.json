@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "ChickensLayGoldenEggsMixin",
+    "DispenserBlockCustomBehaviorMixin",
     "LightGoldenCakesMixin",
     "StructureProcessorAccessor",
     "StructureTemplateMixin"

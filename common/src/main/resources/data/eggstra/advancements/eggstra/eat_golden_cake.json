@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "eggstra:golden_cake"
+    },
+    "title": {
+      "translate": "advancement.eggstra.eat_golden_cake.title"
+    },
+    "description": {
+      "translate": "advancement.eggstra.eat_golden_cake.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "eggstra:eggstra/obtain_golden_egg",
+  "criteria": {
+    "requirement": {
+      "trigger": "eggstra:eat_golden_cake",
+      "conditions": {
+        "player": {
+          "effects": {
+            "minecraft:absorption": {
+              "amplifier": 4
+            }
+          }
+        }
+      }
+    }
+  }
+}

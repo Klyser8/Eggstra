@@ -2,6 +2,25 @@
   "item.eggstra.fried_egg": "Fried Egg",
   "item.eggstra.golden_egg": "Golden Egg",
   "block.eggstra.golden_cake": "Golden Cake",
-  "item.eggstra.music_disc_gold": "Music Disc",
-  "item.eggstra.music_disc_gold.desc": "Oskar August - eggsploration"
+  "item.eggstra.music_disc_goldcore": "Music Disc",
+  "item.eggstra.music_disc_goldcore.desc": "Oskar August - GoldCore",
+
+  "advancement.eggstra.crack_golden_egg.title": "Easter Egg",
+  "advancement.eggstra.crack_golden_egg.desc": "Throw and Crack a Golden Egg to find out what hides inside it",
+  "advancement.eggstra.eat_golden_cake.title": "Indigestion",
+  "advancement.eggstra.eat_golden_cake.desc": "Eat 5 slices of Golden Cake, then rush to the bathroom",
+  "advancement.eggstra.find_mangrove_shrine.title": "The Cake is a Lie!",
+  "advancement.eggstra.find_mangrove_shrine.desc": "Find a Mangrove Shrine",
+  "advancement.eggstra.hit_chicken_with_golden_egg.title": "The Egg came First",
+  "advancement.eggstra.hit_chicken_with_golden_egg.desc": "Hit a Chicken with Golden Egg. Was it worth it?",
+  "advancement.eggstra.obtain_fried_egg.title": "After 12 years...",
+  "advancement.eggstra.obtain_fried_egg.desc": "Obtain a Fried Egg",
+  "advancement.eggstra.obtain_golden_egg.title": "This one's Heavy",
+  "advancement.eggstra.obtain_golden_egg.desc": "Find a Golden Egg, and care not to drop it as it might hurt someone",
+  "advancement.eggstra.obtain_notch_apple_from_golden_egg.title": "How?!",
+  "advancement.eggstra.obtain_notch_apple_from_golden_egg.desc": "Find an Enchanted Golden Apple inside of a Golden Egg",
+  "advancement.eggstra.play_goldcore_in_mangrove.title": "Man-Groovy",
+  "advancement.eggstra.play_goldcore_in_mangrove.desc": "Play the GoldCore music disc in a mangrove swamp",
+  "advancement.eggstra.root.title": "Which came first?",
+  "advancement.eggstra.root.desc": "Find an Egg, and contemplate its existence"
 }

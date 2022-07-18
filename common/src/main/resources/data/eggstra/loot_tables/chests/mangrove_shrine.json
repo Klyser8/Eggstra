@@ -37,7 +37,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "eggstra:music_disc_gold"
+          "name": "eggstra:music_disc_goldcore"
         }
       ]
     },

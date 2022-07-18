@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "eggstra:item/music_disc_gold"
+    "layer0": "eggstra:item/music_disc_goldcore"
   }
 }

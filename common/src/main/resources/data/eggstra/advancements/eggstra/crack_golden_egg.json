@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_nugget"
+    },
+    "title": {
+      "translate": "advancement.eggstra.crack_golden_egg.title"
+    },
+    "description": {
+      "translate": "advancement.eggstra.crack_golden_egg.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "eggstra:eggstra/obtain_golden_egg",
+  "criteria": {
+    "crack_egg": {
+      "trigger": "eggstra:crack_golden_egg",
+      "conditions": {}
+    }
+  }
+}

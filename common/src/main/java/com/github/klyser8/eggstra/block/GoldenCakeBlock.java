@@ -1,10 +1,12 @@
 package com.github.klyser8.eggstra.block;
 
+import com.github.klyser8.eggstra.registry.EggstraAdvancementTriggers;
 import com.github.klyser8.eggstra.registry.EggstraParticles;
 import com.github.klyser8.eggstra.registry.EggstraSounds;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.stats.Stats;
@@ -114,7 +116,9 @@ public class GoldenCakeBlock extends CakeBlock implements SimpleWaterloggedBlock
             levelAccessor.removeBlock(blockPos, false);
             levelAccessor.gameEvent(player, GameEvent.BLOCK_DESTROY, blockPos);
         }
-
+        if (!levelAccessor.isClientSide()) {
+            EggstraAdvancementTriggers.EAT_GOLDEN_CAKE.trigger((ServerPlayer) player);
+        }
         return InteractionResult.SUCCESS;
     }
 

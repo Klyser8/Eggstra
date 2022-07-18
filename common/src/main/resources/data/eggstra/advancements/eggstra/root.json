@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:egg"
+    },
+    "title": {
+      "translate": "advancement.eggstra.root.title",
+      "color": "yellow"
+    },
+    "description": {
+      "translate": "advancement.eggstra.root.desc"
+    },
+    "background": "eggstra:textures/gui/advancements/backgrounds/eggstra.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:egg"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

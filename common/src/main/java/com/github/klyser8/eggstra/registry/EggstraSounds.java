@@ -17,7 +17,11 @@ public class EggstraSounds {
             () -> new SoundEvent(new ResourceLocation(Eggstra.MOD_ID, "block.golden_cake.place")));
     public static final Supplier<SoundEvent> GOLDEN_CAKE_GLITTER = CommonPlatformHelper.registerSoundEvent("gold_glitter",
             () -> new SoundEvent(new ResourceLocation(Eggstra.MOD_ID, "block.golden_cake.glitter")));
-    public static final Supplier<SoundEvent> MUSIC_DISC_GOLD = CommonPlatformHelper.registerSoundEvent("music_disc_gold",
-            () -> new SoundEvent(new ResourceLocation(Eggstra.MOD_ID, "music_disc.music_disc_gold")));
+    public static final Supplier<SoundEvent> GOLDEN_EGG_THROW = CommonPlatformHelper.registerSoundEvent("golden_egg_throw",
+            () -> new SoundEvent(new ResourceLocation(Eggstra.MOD_ID, "entity.golden_egg.throw")));
+    public static final Supplier<SoundEvent> GOLDEN_EGG_CRASH = CommonPlatformHelper.registerSoundEvent("golden_egg_crash",
+            () -> new SoundEvent(new ResourceLocation(Eggstra.MOD_ID, "entity.golden_egg.crash")));
+    public static final Supplier<SoundEvent> MUSIC_DISC_GOLD = CommonPlatformHelper.registerSoundEvent("music_disc_goldcore",
+            () -> new SoundEvent(new ResourceLocation(Eggstra.MOD_ID, "music_disc.music_disc_goldcore")));
 
 }
